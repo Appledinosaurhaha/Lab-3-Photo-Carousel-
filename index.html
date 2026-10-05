@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Power of Sequencing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>The Power of Sequencing</h1>
+        <p class="subtitle">Same 3 images, two completely different narratives.</p>
+
+        <!-- Sequence Switcher Buttons -->
+        <div class="button-group">
+            <button id="seq1-btn" class="active">Sequence 1: Coming Home</button>
+            <button id="seq2-btn">Sequence 2: Leaving in a Hurry</button>
+        </div>
+
+        <!-- Interactive Story Card -->
+        <div class="story-card">
+            <h2 id="story-title">Sequence 1: Coming Home</h2>
+            <p id="story-phase">Step 1 of 3: Beginning</p>
+            
+            <div class="image-box">
+                <img id="story-image" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Story Image">
+            </div>
+            
+            <p id="story-caption" class="caption">A modern doorway waiting at the end of a long day.</p>
+            
+            <button id="next-step-btn">Next Step in Story</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
